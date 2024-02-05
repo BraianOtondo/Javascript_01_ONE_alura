@@ -39,3 +39,13 @@ Guarda variables que pueden ser utilizadas en funciones o afuera.
 const mensaje2="Todo bien?";
 console.log(mensaje2);
 
+//OPERADORES TERNARIOS
+/**
+ * Su sintaxis es la siguiente:
+ * (condicion) ? expresionSiTrue : expresionSiFalse;
+ * : significa sino
+ * Se suele guardar la expresion en una variable creada
+ */
+let numero=0;
+let resultado = (numero > 0) ? 'Positivo' : (numero < 0) ? 'Negativo' : 'Cero';
+alert(resultado);
