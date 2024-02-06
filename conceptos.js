@@ -63,3 +63,7 @@ Math.floor()
 Se utiliza para redondear hacia abajo un número decimal al entero más cercano igual o menor que el número proporcionado.
  En otras palabras, elimina la parte decimal de un número, dejando solo la parte entera.
 */
+//TYPEOF()
+/*
+Podemos saber el tipo de dato poniendo la variable en Typeof(variable);
+*/ 
