@@ -1,4 +1,4 @@
-let numeroSecreto=4;
+let numeroSecreto=Math.floor(Math.random()*10)+1;
 let numeroUsuario=-1;
 let contador=0;
 let cantidadVeces="vez";
@@ -8,7 +8,7 @@ while(numeroSecreto!=numeroUsuario){
     contador++;
     if(numeroSecreto==numeroUsuario ){
         // ${}estoe es un template string
-        alert(`Has acertado!!!  el número secreto es ${numeroSecreto} es igual y lo hiciste ${contador} ${cantidadVeces} `)//contatenacion
+        alert(`Has acertado!!!  el número secreto es ${numeroSecreto} es igual y lo hiciste ${contador} ${contador==1?"vez":"veces"} `)//contatenacion
     }else if(numeroUsuario<numeroSecreto) {
 
         alert(`Es incorrecto!!!  el número secreto era ${numeroSecreto} es mayor que ${numeroUsuario}`);

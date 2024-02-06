@@ -49,3 +49,17 @@ console.log(mensaje2);
 let numero=0;
 let resultado = (numero > 0) ? 'Positivo' : (numero < 0) ? 'Negativo' : 'Cero';
 alert(resultado);
+
+//NÚMEROS ALEATORIOS
+/**Math.random()
+ *  genera un número decimal pseudoaleatorio en el rango [0, 1).
+ *  Es decir, el número puede ser igual o mayor que 0, pero siempre menor que 1.
+ */
+let numeroRandom=Math.random();
+alert(`Numero aleatorio: ${numeroRandom}`);
+/*
+Si queremos ponerle un rango mayor tenemos que cambiar eso matematicamente
+Math.floor()
+Se utiliza para redondear hacia abajo un número decimal al entero más cercano igual o menor que el número proporcionado.
+ En otras palabras, elimina la parte decimal de un número, dejando solo la parte entera.
+*/
