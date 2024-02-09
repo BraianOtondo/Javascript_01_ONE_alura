@@ -67,3 +67,18 @@ Se utiliza para redondear hacia abajo un número decimal al entero más cercano 
 /*
 Podemos saber el tipo de dato poniendo la variable en Typeof(variable);
 */ 
+//DOM
+/**
+ *  DOM representa la estructura jerárquica de un documento web como un conjunto de objetos,
+ *  permitiendo a los programadores acceder, manipular y modificar dinámicamente el contenido,
+ *  la estructura y el estilo de una página web mediante lenguajes de programación como JavaScript.
+ * 
+ */
+// document.querySelector
+/**
+ * document.querySelector es un método en JavaScript
+ *  que permite seleccionar y
+ *  devolver el primer elemento que coincide con un selector CSS especificado.
+ *  Este método es parte del DOM (Modelo de Objetos del Documento)
+ *  y facilita la manipulación de elementos HTML en una página web.
+ */
