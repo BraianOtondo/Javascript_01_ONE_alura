@@ -82,3 +82,7 @@ Podemos saber el tipo de dato poniendo la variable en Typeof(variable);
  *  Este método es parte del DOM (Modelo de Objetos del Documento)
  *  y facilita la manipulación de elementos HTML en una página web.
  */
+//parseInt();
+/**
+ * es una función que toma una cadena (string) y trata de convertirla a un número entero.
+ */
