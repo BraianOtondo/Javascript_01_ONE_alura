@@ -1,4 +1,4 @@
-let numeroSecreto=generarNumeroSecreto();
+let numeroSecreto=0;
 let intentos=0;
 //function()
 function generarNumeroSecreto(){
@@ -32,6 +32,17 @@ function limpiarCaja(){
     // una forma de simplificarlo es:
     //document.querySelector("#valorUsuario").value=' ';
 }
+function estadoInicial(){
+    asignarTextoAElemento("p","Indique un número del 1 al 10");
+    numeroSecreto=generarNumeroSecreto();
+    intentos=0;
+}
+function reiniciarJuego(){
+    limpiarCaja();
+    estadoInicial();
+    document.querySelector('#reiniciar').setAttribute('disabled','true');
+}
+
 asignarTextoAElemento('h1',"Juego de adivinar el número");
-asignarTextoAElemento("p","Indique un número del 1 al 10");
+estadoInicial();
 console.log(numeroSecreto);
