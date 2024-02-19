@@ -13,6 +13,7 @@ function verificarIntento(){
     if(numeroUsuario===numeroSecreto){
         alert(`Acertaste el numero. Con un intento de ${intentos} ${(intentos==1)?"vez":"veces" }`);
         asignarTextoAElemento("p","GANASTEE!!");
+        document.querySelector('#reiniciar').removeAttribute('disabled');
     }else{
         limpiarCaja();
         //alert(`No es el numero secreto, era : ${numeroSecreto}`);
