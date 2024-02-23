@@ -45,4 +45,5 @@ function reiniciarJuego(){
 
 asignarTextoAElemento('h1',"Juego de adivinar el número");
 estadoInicial();
+
 console.log(numeroSecreto);
