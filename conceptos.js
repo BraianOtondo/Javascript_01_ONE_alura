@@ -86,3 +86,15 @@ Podemos saber el tipo de dato poniendo la variable en Typeof(variable);
 /**
  * es una función que toma una cadena (string) y trata de convertirla a un número entero.
  */
+//Arreglos
+/**
+ *Al igual que python los arreglos pueden ser mixtos, es decir que puede contener string,
+  numeros, booleanos, etc.
+ *   */ 
+let numerosArray=[];
+numerosarray.push(4);// ingresa siempre al ultimo
+numerosarray.push(5);
+console.log(numerosArray);//muestra
+console.log(numerosArray.length);//muestra tamaño
+console.log(numerosArray[0]);//muestra por posicion
+console.log(numerosArray[numerosArray.length-1]);//muestra el ultimo
